@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(https://www.algebra.hr/international-school/wp-content/uploads/sites/12/2018/06/winter_naslovna.jpg);
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    justify: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: teal;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav {
+    display:flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+.picture {
+    justify-content: center;
+    padding-left: 235px;
+}
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.about {
+    margin:10px 300px ;
+    background-color:white; 
+    padding: 0 30px;
+    border: 0 20px;
+    font-size: 18px;
+
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: 100px ;
+
+
+}
+
+ p {
+    margin: 20px;
+ }
+
+ .contact-section{
+  background: teal;
+  padding: 30px 0;
+  text-align: center;
+}
+
+
+h1 #other {
+    text-align: center;
+    justify-content: center;
+}
